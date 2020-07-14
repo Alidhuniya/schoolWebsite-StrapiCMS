@@ -46,6 +46,12 @@ body {
   width: 100%;
 }
 
+@media all and (max-width: 768px) {
+  .top {
+    height: 65px;
+  }
+}
+
 .topHeader {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,15 +63,42 @@ body {
   margin-right: 7rem;
 }
 
+@media all and (max-width: 768px) {
+  .topHeader {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .topHeader {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
 .topHeader__right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 0.8rem;
 }
 
-.topHeader__left {
+.topHeader__left, .topHeader__right {
   margin-top: 0.6rem;
+}
+
+@media all and (max-width: 1200px) {
+  .topHeader__left, .topHeader__right {
+    margin-top: 0.8rem;
+  }
 }
 
 .topHeader__msg {
@@ -74,8 +107,33 @@ body {
   font-size: 1.3rem;
 }
 
+@media all and (max-width: 1200px) {
+  .topHeader__msg {
+    font-size: 1rem;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .topHeader__msg {
+    font-size: 0.7rem;
+  }
+}
+
 .topHeader__samStyl {
   color: #fff;
+}
+
+@media all and (max-width: 1200px) {
+  .topHeader__samStyl {
+    font-size: 0.8rem;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .topHeader__samStyl {
+    font-size: 0.5rem;
+    text-align: center;
+  }
 }
 
 .topHeader__samStyl + .topHeader__samStyl {

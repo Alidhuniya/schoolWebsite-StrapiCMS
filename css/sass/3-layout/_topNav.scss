@@ -2,6 +2,10 @@
     height: 43px;
     background-color: #F3B108;
     width: 100%;
+
+    @media all and (max-width: 768px) {
+        height: 65px;
+    }
 }
 
 .topHeader {
@@ -10,30 +14,61 @@
     margin-left: 7rem;
     margin-right: 7rem;
 
+    @media all and (max-width: 768px) {
+        
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @media all and (max-width: 500px) {
+        margin-left: 0rem;
+    margin-right: 0rem;
+    }
+
 }
 
 
 .topHeader__right {
     display: flex;
-    margin-top: 0.8rem;
     
-   
 }
 
-.topHeader__left {
+.topHeader__left, .topHeader__right {
     margin-top: 0.6rem;
+
+    @media all and (max-width: 1200px) {
+        margin-top: 0.8rem;
+    }
 }
 
 .topHeader__msg {
     color: #fff;
     text-transform: capitalize;
     font-size: 1.3rem;
+
+    @media all and (max-width: 1200px) {
+        font-size: 1rem;
+    }
+
+    @media all and (max-width: 500px) {
+        font-size: 0.7rem;
+    }
 }
 
 
 .topHeader__samStyl  {
     color: #fff;
+
+    @media all and (max-width: 1200px) {
+        font-size: 0.8rem;
+    }
+    @media all and (max-width: 500px) {
+        font-size: 0.5rem;
+        text-align: center;
+    }
 }
+
 
 
 
