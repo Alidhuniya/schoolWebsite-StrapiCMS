@@ -1,0 +1,48 @@
+.top {
+    height: 43px;
+    background-color: #F3B108;
+    width: 100%;
+}
+
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7rem;
+    margin-right: 7rem;
+
+}
+
+
+.topHeader__right {
+    display: flex;
+    margin-top: 0.8rem;
+    
+   
+}
+
+.topHeader__left {
+    margin-top: 0.6rem;
+}
+
+.topHeader__msg {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+
+
+.topHeader__samStyl  {
+    color: #fff;
+}
+
+
+
+.topHeader__samStyl +.topHeader__samStyl {
+
+    margin-left: 1.5rem;
+}
+
+
+.fa-phone-alt, .fa-map-marker-alt {
+    margin-right: 0.5rem;
+}
