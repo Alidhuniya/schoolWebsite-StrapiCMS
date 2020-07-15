@@ -8,7 +8,7 @@ export const Menus = async () => {
         const ftch = await fetch(url);
         const data = await ftch.json();
         const result = data;
-        console.log(result[0].navMenus[8].navLink);
+        console.log(result[0].logoImg.url);
 
         document.getElementById("nav").innerHTML = `
        
@@ -16,8 +16,8 @@ export const Menus = async () => {
   <div class="navbar">
     <div class="navbar__container">
       <nav class="navbar__block">
-        
-        <a href="#home" class="navbar__logo"><img src="${result[0].logoImg.url}" /></a>
+     
+        <a href="#"class="navbar__logo"><img  src="../../../img/logo.jpg" /></a>
 
         
         <ul class="navbar__ul">

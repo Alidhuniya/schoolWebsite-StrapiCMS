@@ -1,150 +1,169 @@
-
-  .navbar__container {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
- 
+.navbar__container {
   
-  /* navbar regular css start */
-  .navbar {
-    background: rgba(0,0,0,.6);
-    border-bottom: 1px solid #000;
-  }
-  .navbar__block {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+/* navbar regular css start */
+.navbar {
+margin-top: 2rem;
+}
+.navbar__block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+a.site-logo {
+	font-size: 26px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+.navbar__block ul {
+	  
+    list-style: none;
+ 
     display: flex;
     justify-content: space-between;
-    align-items: center;
-  }
-  a.site-logo {
-    font-size: 26px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-  }
-  .navbar__block ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-  }
-  .navbar__block ul li a {
-    color: #fff;
-    padding: 20px;
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  .navbar__block ul li a:hover {
-    background: rgba(255,255,255,.1);
-  }
-  /* navbar regular css end */
-  
-  
-  /* navbar__toggler css start */
-  .navbar__toggler {
-    border: 3px solid #fff;
-    padding: 5px;
-    background-color: transparent;
-    cursor: pointer;
-    height: 39px;
-    display: none;
-  }
-  .navbar__toggler span, 
-  .navbar__toggler span:before, 
-  .navbar__toggler span:after {
-    width: 28px;
-    height: 3px;
-    background-color: #fff;
-    display: block;
-    transition: .3s;
-  }
-  .navbar__toggler span:before {
-    content: '';
-    transform: translateY(-9px);
-  }
-  .navbar__toggler span:after {
-    content: '';
-    transform: translateY(6px);
-  }
-  .navbar__toggler.toggler-open span {
-    background-color: transparent;
-  }
-  .navbar__toggler.toggler-open span:before {
-    transform: translateY(0px) rotate(45deg);
-  }
-  .navbar__toggler.toggler-open span:after {
-    transform: translateY(-3px) rotate(-45deg);
-  }
-  /* navbar__toggler css start */
-  
-  
-  /* intro-area css start */
-  .intro-area {
-    height: calc(100vh - 61px);
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-  }
-  .intro-area h2 {
-    font-size: 50px;
-    font-weight: 300;
-    line-height: 50px;
-    margin-bottom: 25px;
-  }
-  .intro-area p {
-    font-size: 18px;
-  }
-  /* intro-area css end */
-  
-  
-  /* mobile breakpoint start */
-  @media screen and (max-width: 767px) {
-    .container {
-      max-width: 720px;
-    }
-    /* navbar css for mobile start */
-    .navbar__toggler{
-      display: block;
-    }
-    .navbar__block {
-      min-height: 60px;
-    }
+    width: 70%;
+}
+.navbar__block ul li a {
+	
+	text-transform: capitalize;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #47535e;
+}
+.navbar__block ul li a:hover {
+	background: rgba(255, 255, 255, 0.1);
+}
+/* navbar regular css end */
+
+/* navbar__toggler css start */
+.navbar__toggler {
+	border: 3px solid #F3B108;
+	padding: 5px;
+    margin-right: -7rem;
+	cursor: pointer;
+	height: 39px;
+	display: none;
+}
+.navbar__toggler span,
+.navbar__toggler span:before,
+.navbar__toggler span:after {
+	width: 28px;
+	height: 3px;
+	background-color: #362f1d;
+	display: block;
+	transition: 0.3s;
+}
+.navbar__toggler span:before {
+	content: "";
+	transform: translateY(-9px);
+}
+.navbar__toggler span:after {
+	content: "";
+	transform: translateY(6px);
+}
+.navbar__toggler.toggler-open span {
+	background-color: transparent;
+}
+.navbar__toggler.toggler-open span:before {
+	transform: translateY(0px) rotate(45deg);
+}
+.navbar__toggler.toggler-open span:after {
+	transform: translateY(-3px) rotate(-45deg);
+}
+/* navbar__toggler css start */
+
+/* intro-area css start */
+.intro-area {
+	height: calc(100vh - 61px);
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+.intro-area h2 {
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 50px;
+	margin-bottom: 25px;
+}
+.intro-area p {
+	font-size: 18px;
+}
+/* intro-area css end */
+
+/* mobile breakpoint start */
+@media screen and (max-width: 1200px) {
+	.container {
+		max-width: 720px;
+	}
+	/* navbar css for mobile start */
+	.navbar__toggler {
+		display: block;
+	}
+	.navbar__block {
+		min-height: 60px;
+	}
+	.navbar__block ul {
+		position: absolute;
+		width: 100%;
+		height: calc(100vh - 60px);
+		left: 0;
+        top: 40px;
+        // padding-top: 1rem;
+        // padding-bottom: 1rem;
+		flex-direction: column;
+		align-items: center;
+	
+		background-color:#f1e6ca;
+		max-height: 0;
+		overflow: hidden;
+        transition: 0.3s;
+        
+        
+       
+	}
+	.navbar__block ul li {
+		width: 100%;
+		text-align: center;
+	}
+	.navbar__block ul li a {
+        
+        color: #47535e;
+	}
+	
+	.navbar__block ul.open {
+		max-height: 100vh;
+        overflow: visible;
+        padding-top: 1.3rem;
+        padding-bottom: 1.3rem;
+        
+
+         
+       
+	}
+	.intro-area h2 {
+		font-size: 36px;
+		margin-bottom: 15px;
+	}
+	/* navbar css for mobile end */
+}
+/* mobile breakpoint end */
+
+img {
+	height: 75px;
+	width: 102px;
+}
+
+ @media all and (max-width: 768px) {
     .navbar__block ul {
-      position: absolute;
-      width: 100%;
-      height: calc(100vh - 60px);
-      left: 0;
-      top: 60px;
-      flex-direction: column;
-      align-items: center;
-      border-top: 1px solid #444;
-      background-color: rgba(0,0,0,.75);
-      max-height: 0;
-      overflow: hidden;
-      transition: .3s;
-    }
-    .navbar__block ul li {
-      width: 100%;
-      text-align: center;
-    }
-    .navbar__block ul li a {
-      padding: 25px;
-    }
-    .navbar__block ul li a:hover {
-      background-color: rgba(255,255,255,.1);
-    }
-    .navbar__block ul.open {
-      max-height: 100vh;
-      overflow: visible;
-    }
-    .intro-area h2 {
-      font-size: 36px;
-      margin-bottom: 15px;
-    }  
-    /* navbar css for mobile end */
-  }
-  /* mobile breakpoint end */
+            top: 65px;
+        }
+               
+            }
