@@ -92,7 +92,7 @@ body {
 }
 
 .topHeader__left, .topHeader__right {
-  margin-top: 0.6rem;
+  margin-top: 0.9rem;
 }
 
 @media all and (max-width: 1200px) {

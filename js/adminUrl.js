@@ -1,0 +1,1 @@
+export const localhost = "https://strapicmsdemo.herokuapp.com";
