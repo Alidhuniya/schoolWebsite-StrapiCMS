@@ -7,6 +7,7 @@ var slideIndex = 1;
     
     function currentSlide(n) {
       showSlides(slideIndex = n);
+      
     }
     
     function showSlides(n) {
@@ -27,4 +28,7 @@ var slideIndex = 1;
       }
       slides[slideIndex - 1].style.display = "block";
       dots[slideIndex - 1].className += " active";
+      
     }
+
+  

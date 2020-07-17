@@ -279,6 +279,7 @@ a.site-logo {
   /* navbar css for mobile start */
   .navbar__toggler {
     display: block;
+    z-index: 99;
   }
   .navbar__block {
     min-height: 60px;
@@ -314,6 +315,7 @@ a.site-logo {
     overflow: visible;
     padding-top: 1.3rem;
     padding-bottom: 1.3rem;
+    z-index: 99;
   }
   .intro-area h2 {
     font-size: 36px;
@@ -347,6 +349,7 @@ img {
 .blog-slider__container {
   position: relative;
   height: auto;
+  margin-top: 2rem;
 }
 
 .blog-slider__container .blogSlides img {
@@ -367,6 +370,7 @@ img {
   margin-top: -22px;
   padding: 16px;
   color: white;
+  background: #FFC634;
   font-weight: bold;
   font-size: 18px;
   -webkit-transition: 0.6s ease;

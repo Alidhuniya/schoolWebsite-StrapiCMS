@@ -1,3 +1,4 @@
+
 .navbar__container {
 	margin-left: 7rem;
 	margin-right: 7rem;
@@ -101,6 +102,7 @@ a.site-logo {
 	/* navbar css for mobile start */
 	.navbar__toggler {
 		display: block;
+		z-index: 99;
 	}
 	.navbar__block {
 		min-height: 60px;
@@ -134,6 +136,8 @@ a.site-logo {
 		overflow: visible;
 		padding-top: 1.3rem;
 		padding-bottom: 1.3rem;
+		z-index: 99;
+		
 	}
 	.intro-area h2 {
 		font-size: 36px;
