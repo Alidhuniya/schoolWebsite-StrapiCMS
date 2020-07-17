@@ -8,6 +8,8 @@ import { topNav } from "./modules/home/topNav.js"
 import  { Menus } from "./modules/home/menus.js";
 // slider
 import { Slider } from "./modules/home/slider.js";
+// cards
+import { Cards } from "./modules/home/cards.js";
 
 // Execute
 
@@ -21,3 +23,6 @@ Menus();
 
 // slider
 Slider();
+
+// cards
+Cards();
