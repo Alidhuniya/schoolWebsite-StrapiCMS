@@ -1,11 +1,10 @@
 .navbar__container {
-  
-    margin-left: 7rem;
-    margin-right: 7rem;
+	margin-left: 7rem;
+	margin-right: 7rem;
 }
 /* navbar regular css start */
 .navbar {
-margin-top: 2rem;
+	margin-top: 2rem;
 }
 .navbar__block {
 	display: flex;
@@ -20,15 +19,13 @@ a.site-logo {
 	text-decoration: none;
 }
 .navbar__block ul {
-	  
-    list-style: none;
- 
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
+	list-style: none;
+
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
 }
 .navbar__block ul li a {
-	
 	text-transform: capitalize;
 	font-style: normal;
 	font-weight: 500;
@@ -37,16 +34,14 @@ a.site-logo {
 
 	color: #47535e;
 }
-.navbar__block ul li a:hover {
-	background: rgba(255, 255, 255, 0.1);
-}
+
 /* navbar regular css end */
 
 /* navbar__toggler css start */
 .navbar__toggler {
-	border: 3px solid #F3B108;
+	border: 3px solid #f3b108;
 	padding: 5px;
-    margin-right: -7rem;
+	margin-right: -7rem;
 	cursor: pointer;
 	height: 39px;
 	display: none;
@@ -115,38 +110,30 @@ a.site-logo {
 		width: 100%;
 		height: calc(100vh - 60px);
 		left: 0;
-        top: 40px;
-        // padding-top: 1rem;
-        // padding-bottom: 1rem;
+		top: 40px;
+		// padding-top: 1rem;
+		// padding-bottom: 1rem;
 		flex-direction: column;
 		align-items: center;
-	
-		background-color:#f1e6ca;
+
+		background-color: #f1e6ca;
 		max-height: 0;
 		overflow: hidden;
-        transition: 0.3s;
-        
-        
-       
+		transition: 0.3s;
 	}
 	.navbar__block ul li {
 		width: 100%;
 		text-align: center;
 	}
 	.navbar__block ul li a {
-        
-        color: #47535e;
+		color: #47535e;
 	}
-	
+
 	.navbar__block ul.open {
 		max-height: 100vh;
-        overflow: visible;
-        padding-top: 1.3rem;
-        padding-bottom: 1.3rem;
-        
-
-         
-       
+		overflow: visible;
+		padding-top: 1.3rem;
+		padding-bottom: 1.3rem;
 	}
 	.intro-area h2 {
 		font-size: 36px;
@@ -161,9 +148,16 @@ img {
 	width: 102px;
 }
 
- @media all and (max-width: 768px) {
-    .navbar__block ul {
-            top: 65px;
-        }
-               
-            }
+@media all and (max-width: 768px) {
+	.navbar__block ul {
+		top: 65px;
+	}
+}
+
+.navbar__list7 {
+	background-color: #694df4;
+	padding: 0.5rem;
+}
+.navbar__list7span {
+	color: #fff;
+}

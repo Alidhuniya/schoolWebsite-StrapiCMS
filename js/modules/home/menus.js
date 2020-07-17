@@ -19,7 +19,7 @@ export const Menus = async () => {
       const schoolLife = document.querySelector(".navbar__list4").textContent = `${result[0].navMenus[4].navlink}`;
       const management = document.querySelector(".navbar__list5").textContent = `${result[0].navMenus[5].navlink}`;
       const contact = document.querySelector(".navbar__list6").textContent = `${result[0].navMenus[6].navlink}`;
-      const admission = document.querySelector(".navbar__list7").textContent = `${result[0].navMenus[7].navlink}`;
+      const admission = document.querySelector(".navbar__list7span").textContent = `${result[0].navMenus[7].navlink}`;
 
 // define all UI variable
 const navToggler = document.querySelector('.navbar__toggler');

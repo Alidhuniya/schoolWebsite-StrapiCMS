@@ -197,14 +197,10 @@ a.site-logo {
   color: #47535e;
 }
 
-.navbar__block ul li a:hover {
-  background: rgba(255, 255, 255, 0.1);
-}
-
 /* navbar regular css end */
 /* navbar__toggler css start */
 .navbar__toggler {
-  border: 3px solid #F3B108;
+  border: 3px solid #f3b108;
   padding: 5px;
   margin-right: -7rem;
   cursor: pointer;
@@ -336,5 +332,14 @@ img {
   .navbar__block ul {
     top: 65px;
   }
+}
+
+.navbar__list7 {
+  background-color: #694df4;
+  padding: 0.5rem;
+}
+
+.navbar__list7span {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
