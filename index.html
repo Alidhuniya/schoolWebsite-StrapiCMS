@@ -63,7 +63,43 @@
     </div>
     <!-- End Navbar -->
 
+
+    <!-- Image slider -->
+
+    <div class="blog-slider__container">
+      <div class="blogSlides fade">
+        <div class="blog-slider__numbertext">1 / 3</div>
+        <img class="slider__image1" src="">
+        <div class="blog-slider__text">Caption Text</div>
+      </div>
+    
+      <div class="blogSlides fade">
+        <div class="blog-slider__numbertext">2 / 3</div>
+        <img class="slider__image2" src="">
+        <div class="blog-slider__text">Caption Two</div>
+      </div>
+    
+      <div class="blogSlides fade">
+        <div class="blog-slider__numbertext">3 / 3</div>
+        <img class="slider__image3" src="">
+        <div class="blog-slider__text">Caption Three</div>
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <div class="blogSlider__dots" style="text-align:center">
+      <span class="blogSlider__dots--dot" onclick="currentSlide(1)"></span> 
+      <span class="blogSlider__dots--dot" onclick="currentSlide(2)"></span> 
+      <span class="blogSlider__dots--dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <!-- End Image Slider -->
+
     <script type="module" src="js/script.js"></script>
+    <script src="js/modules/home/sliders.js"></script>
 </body>
 </html>
 
