@@ -8,37 +8,19 @@ export const Menus = async () => {
         const ftch = await fetch(url);
         const data = await ftch.json();
         const result = data;
-        // console.log(result[0].navMenus[0].navlink);
+        // console.log(result);
 
-        document.getElementById("nav").innerHTML = `
-       
-        
-  <div class="navbar">
-    <div class="navbar__container">
-      <nav class="navbar__block">
-     
-        <a href="#"class="navbar__logo"><img  src="${localhost}${result[0].logoImg.url}" /></a>
+      document.querySelector(".navbar__img").src=`${localhost}${result[0].logoImg.url}`;
+      
+      const home = document.querySelector(".navbar__list0").textContent = `${result[0].navMenus[0].navlink}`;
+      const notice = document.querySelector(".navbar__list1").textContent = `${result[0].navMenus[1].navlink}`;
+      const resultsection = document.querySelector(".navbar__list2").textContent = `${result[0].navMenus[2].navlink}`;
+      const event = document.querySelector(".navbar__list3").textContent = `${result[0].navMenus[3].navlink}`;
+      const schoolLife = document.querySelector(".navbar__list4").textContent = `${result[0].navMenus[4].navlink}`;
+      const management = document.querySelector(".navbar__list5").textContent = `${result[0].navMenus[5].navlink}`;
+      const contact = document.querySelector(".navbar__list6").textContent = `${result[0].navMenus[6].navlink}`;
+      const admission = document.querySelector(".navbar__list7").textContent = `${result[0].navMenus[7].navlink}`;
 
-        
-        <ul class="navbar__ul">
-  <li><a class="navbar__list" href="#">${result[0].navMenus[0].navlink}</a></li>
-  <li><a class="navbar__list" href="#">${result[0].navMenus[1].navlink}</a></li>
-  <li><a class="navbar__list" href="#">${result[0].navMenus[2].navlink}</a></li>
-  <li><a class="navbar__list" href="#">${result[0].navMenus[3].navlink}</a></li>
-  <li><a class="navbar__list" href="#">${result[0].navMenus[4].navlink}</a></li>
-  <li><a class="navbar__list" href="#">${result[0].navMenus[5].navlink}</a></li>
-  <li><a class="navbar__list" href="#">${result[0].navMenus[6].navlink}</a></li>
-  <li><a class="navbar__list" href="#">${result[0].navMenus[7].navlink}</a></li>
-
-</ul>
-       
-        <button class="navbar__toggler">
-          <span></span>
-        </button>
-      </nav>
-    </div>
-  </div>
-        `;
 // define all UI variable
 const navToggler = document.querySelector('.navbar__toggler');
 const navMenu = document.querySelector('.navbar__ul');

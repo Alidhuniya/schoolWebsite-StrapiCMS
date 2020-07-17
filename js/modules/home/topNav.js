@@ -10,20 +10,9 @@ export const topNav = async () => {
         const result = data;
         // console.log(result);
 
-        document.getElementById("topNav").innerHTML = `
-        <div class="topHeader">
-
-        <div class="topHeader__left">
-        <p class="topHeader__msg"> ${result[0].wlcmMsg} </p> 
-         </div>
-
-        <div class="topHeader__right"> 
-        <p class="topHeader__samStyl"><i  class="fas fa-phone-alt topHeader__samStyl"></i>${result[0].phoneNumber}</p>
-        <p class="topHeader__samStyl"><i class="fas fa-map-marker-alt topHeader__samStyl"></i>${result[0].location}</p>
-        </div>
-
-        </div>
-        `;
+      const msg = document.querySelector(".topHeader__msg").textContent = `${result[0].wlcmMsg}`;
+      const number = document.querySelector(".number").textContent = `${result[0].phoneNumber}`;
+      const location = document.querySelector(".location").textContent = `${result[0].location}`;
     }
 
     catch(error) {
