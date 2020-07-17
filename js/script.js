@@ -10,6 +10,8 @@ import  { Menus } from "./modules/home/menus.js";
 import { Slider } from "./modules/home/slider.js";
 // cards
 import { Cards } from "./modules/home/cards.js";
+// modal
+import { Modal } from "./modules/home/modal.js";
 
 // Execute
 
@@ -26,3 +28,6 @@ Slider();
 
 // cards
 Cards();
+
+// modal
+Modal();

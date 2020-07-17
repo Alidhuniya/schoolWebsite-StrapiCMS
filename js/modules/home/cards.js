@@ -5,7 +5,7 @@ export const Cards = async () => {
 		const ftch = await fetch(url);
 		const data = await ftch.json();
 		const result = data;
-        console.log(result);
+        // console.log(result);
         
 
         document.querySelector(".cards__h3ele").textContent = `${result[0].card[0].cardInfo}`;
