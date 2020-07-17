@@ -1,83 +1,78 @@
 .top {
-    height: 43px;
-    background-color: #F3B108;
-    width: 100%;
+	height: 43px;
+	background-color: #f3b108;
+	width: 100%;
 
-    @media all and (max-width: 768px) {
-        height: 65px;
-    }
+	@media all and (max-width: 768px) {
+		height: 65px;
+	}
 }
 
 .topHeader {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 7rem;
-    margin-right: 7rem;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 7rem;
+	margin-right: 7rem;
 
-    @media all and (max-width: 768px) {
-        
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
+	@media all and (max-width: 768px) {
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
 
-    @media all and (max-width: 500px) {
-        margin-left: 0rem;
-    margin-right: 0rem;
-    }
-
+	@media all and (max-width: 500px) {
+		margin-left: 0rem;
+		margin-right: 0rem;
+	}
 }
-
 
 .topHeader__right {
-    display: flex;
-    
+	display: flex;
+	margin-top: 0.9rem;
 }
 
-.topHeader__left, .topHeader__right {
-    margin-top: 0.9rem;
+.topHeader__left {
+	margin-top: 0.7rem;
+}
 
-    @media all and (max-width: 1200px) {
-        margin-top: 0.8rem;
-    }
+@media all and (max-width: 1200px) {
+	.topHeader__left,
+	.topHeader__right {
+		margin-top: 0.8rem;
+	}
 }
 
 .topHeader__msg {
-    color: #fff;
-    text-transform: capitalize;
-    font-size: 1.3rem;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 1.3rem;
 
-    @media all and (max-width: 1200px) {
-        font-size: 1rem;
-    }
+	@media all and (max-width: 1200px) {
+		font-size: 1rem;
+	}
 
-    @media all and (max-width: 500px) {
-        font-size: 0.7rem;
-    }
+	@media all and (max-width: 500px) {
+		font-size: 0.7rem;
+	}
 }
 
+.topHeader__samStyl {
+	color: #fff;
 
-.topHeader__samStyl  {
-    color: #fff;
-
-    @media all and (max-width: 1200px) {
-        font-size: 0.8rem;
-    }
-    @media all and (max-width: 500px) {
-        font-size: 0.5rem;
-        text-align: center;
-    }
+	@media all and (max-width: 1200px) {
+		font-size: 0.8rem;
+	}
+	@media all and (max-width: 500px) {
+		font-size: 0.5rem;
+		text-align: center;
+	}
 }
 
-
-
-
-.topHeader__samStyl +.topHeader__samStyl {
-
-    margin-left: 1.5rem;
+.topHeader__samStyl + .topHeader__samStyl {
+	margin-left: 1.5rem;
 }
 
-
-.fa-phone-alt, .fa-map-marker-alt {
-    margin-right: 0.5rem;
+.fa-phone-alt,
+.fa-map-marker-alt {
+	margin-right: 0.5rem;
 }

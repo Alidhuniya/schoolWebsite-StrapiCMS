@@ -42,7 +42,7 @@ body {
 
 .top {
   height: 43px;
-  background-color: #F3B108;
+  background-color: #f3b108;
   width: 100%;
 }
 
@@ -89,14 +89,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.topHeader__left, .topHeader__right {
   margin-top: 0.9rem;
 }
 
+.topHeader__left {
+  margin-top: 0.7rem;
+}
+
 @media all and (max-width: 1200px) {
-  .topHeader__left, .topHeader__right {
+  .topHeader__left,
+  .topHeader__right {
     margin-top: 0.8rem;
   }
 }
@@ -140,7 +142,8 @@ body {
   margin-left: 1.5rem;
 }
 
-.fa-phone-alt, .fa-map-marker-alt {
+.fa-phone-alt,
+.fa-map-marker-alt {
   margin-right: 0.5rem;
 }
 
