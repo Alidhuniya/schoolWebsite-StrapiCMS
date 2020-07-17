@@ -10,7 +10,7 @@ export const Menus = async () => {
         const result = data;
         // console.log(result);
 
-      document.querySelector(".navbar__img").src=`${localhost}${result[0].logoImg.url}`;
+      document.querySelector(".navbar__img").src=`${result[0].logoImg.url}`;
       
       const home = document.querySelector(".navbar__list0").textContent = `${result[0].navMenus[0].navlink}`;
       const notice = document.querySelector(".navbar__list1").textContent = `${result[0].navMenus[1].navlink}`;
