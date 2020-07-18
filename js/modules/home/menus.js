@@ -21,6 +21,8 @@ export const Menus = async () => {
       const contact = document.querySelector(".navbar__list6").textContent = `${result[0].navMenus[6].navlink}`;
       const admission = document.querySelector(".navbar__list7span").textContent = `${result[0].navMenus[7].navlink}`;
 
+      
+
 // define all UI variable
 const navToggler = document.querySelector('.navbar__toggler');
 const navMenu = document.querySelector('.navbar__ul');

@@ -12,6 +12,8 @@ import { Slider } from "./modules/home/slider.js";
 import { Cards } from "./modules/home/cards.js";
 // modal
 import { Modal } from "./modules/home/modal.js";
+// admission
+import { Admission } from './modules/home/admission.js';
 
 // Execute
 
@@ -31,3 +33,7 @@ Cards();
 
 // modal
 Modal();
+
+// admission
+Admission();
+

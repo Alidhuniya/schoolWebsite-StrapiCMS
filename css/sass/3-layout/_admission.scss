@@ -1,0 +1,90 @@
+.admissionSection {
+	margin-left: 7rem;
+	margin-right: 7rem;
+    margin-top: 15rem;
+    
+    @media all and (max-width: 830px) {
+        margin-left: 0rem;
+	margin-right: 0rem;
+    }
+}
+
+.admissionSection__container {
+	display: flex;
+    // justify-content: space-between;
+    
+    @media all and (max-width: 1200px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.admissionSection__bannerImg {
+    object-fit: cover;
+	width: 850px;
+    height: 351px;
+   
+}
+
+.admissionSection__rightImgContainer {
+    margin-left: 12rem;
+    
+    @media all and (max-width: 1200px) {
+        margin-top: 3rem;
+    }
+
+    @media all and (max-width: 768px) {
+        margin-left: 0rem;
+    }
+
+    @media all and (max-width: 830px) {
+        width: 100%;
+    }
+
+}
+
+.admissionSection__h1 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #000000;
+}
+
+.admissionSection__h1,
+.admissionSection__p0,
+.admissionSection__h3,
+.admissionSection__h4,
+.admissionSection__p1,
+.admissionSection__p2 {
+	text-transform: capitalize;
+}
+
+.admissionSection__p0 {
+	margin-top: 3rem;
+}
+
+.admissionSection__h3 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+}
+
+.admissionSection__h4 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.admissionSection__p1 {
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+margin-top: 1.7rem;
+}
+
+.admissionSection__p2 {
+    margin-top: 1.3rem;
+}
