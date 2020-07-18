@@ -16,6 +16,8 @@ import { Modal } from "./modules/home/modal.js";
 import { Admission } from './modules/home/admission.js';
 // about
 import { About } from './modules/home/about.js';
+// principal
+import { Principal } from './modules/home/principal.js';
 
 // Execute
 
@@ -42,3 +44,5 @@ Admission();
 // about
 About();
 
+// principal
+Principal();
