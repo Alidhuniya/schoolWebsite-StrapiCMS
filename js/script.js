@@ -14,6 +14,8 @@ import { Cards } from "./modules/home/cards.js";
 import { Modal } from "./modules/home/modal.js";
 // admission
 import { Admission } from './modules/home/admission.js';
+// about
+import { About } from './modules/home/about.js';
 
 // Execute
 
@@ -36,4 +38,7 @@ Modal();
 
 // admission
 Admission();
+
+// about
+About();
 
