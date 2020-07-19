@@ -1,0 +1,67 @@
+.notices {
+	margin-left: 7rem;
+    margin-right: 7rem;
+    
+    @media all and (max-width: 500px) {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+.notices__container {
+	margin-top: 7rem;
+}
+
+.noticeSection {
+	// margin-top: 3.5rem;
+	margin-top: 1rem;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	text-align: center;
+   
+	color: #8c7ae6;
+}
+
+.leftDvnotice {
+	width: 113px;
+	height: 92px;
+    margin-bottom: 2rem;
+	background: #e3e9f0;
+	border: 1px solid #a4b0bd;
+}
+
+.noticeyrmonth {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+
+	text-align: center;
+
+	color: #8c7ae6;
+}
+
+.notices__heading {
+    font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+margin-bottom: 3rem;
+color: #47535E;
+}
+
+.bywho {
+    margin-bottom: 2.5rem;
+    margin-top: 0.7rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #727070;
+}
+
+.notice__h1 {
+    margin-bottom: 0.6rem;
+}
+
+.notice__parag {
+    max-width: 65ch;
+}
