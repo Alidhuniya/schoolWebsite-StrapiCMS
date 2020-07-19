@@ -24,7 +24,8 @@ import { HomeNotices } from './modules/home/homenotice.js';
 import { Achieve } from './modules/home/achieve.js';
 // tour
 import { Tour } from "./modules/home/tour.js";
-
+// courses
+import { Courses } from './modules/home/courses.js';
 
 // Execute
 
@@ -62,5 +63,8 @@ Achieve();
 
 // tour
 Tour();
+
+// courses
+Courses();
 
 
