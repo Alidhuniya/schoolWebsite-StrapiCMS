@@ -12,7 +12,7 @@
          const ftch = await fetch(url);
          const data = await ftch.json();
          const result = data;
-          console.log(result[0].imgPrincipal.url);
+        //   console.log(result[0].imgPrincipal.url);
 
         document.querySelector(".principalSection__p0").textContent = `${result[0].p0}`;
         document.querySelector(".principalSection__h1").textContent = `${result[0].h1}`;

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,AAAC,CACL,UAAU,CAAE,KAAK,CACjB,WAAW,CAAE,IAAI,CACjB,YAAY,CAAE,IAAI,CACrB,AAGD,AAAA,iBAAiB,AAAC,CACd,OAAO,CAAE,IAAI,CAChB,AACD,AAAA,qBAAqB,AAAC,CAClB,UAAU,CAAE,MAAM,CACrB",
+    "sources": [
+        "../sass/3-layout/achieve.scss"
+    ],
+    "names": [],
+    "file": "achieve.min.css"
+}

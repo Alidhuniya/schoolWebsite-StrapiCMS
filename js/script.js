@@ -20,6 +20,8 @@ import { About } from './modules/home/about.js';
 import { Principal } from './modules/home/principal.js';
 //notice
 import { HomeNotices } from './modules/home/homenotice.js';
+// achieve
+import { Achieve } from './modules/home/achieve.js';
 
 
 // Execute
@@ -52,5 +54,8 @@ Principal();
 
 // notice
 HomeNotices();
+
+// achieve
+Achieve();
 
 

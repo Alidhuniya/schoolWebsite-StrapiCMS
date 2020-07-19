@@ -1,0 +1,58 @@
+.achieve {
+    
+    margin-top: 12rem;
+}
+
+.achieve__container {
+  padding: 7rem;
+// width: 100%;
+
+background: #CFD3D7;
+
+@media all and (max-width: 500px) {
+    padding: 3rem;
+}
+}
+
+.achieve__section {
+    margin-top: 7rem;
+}
+
+.achieve__h1 {
+    text-align: center;
+    font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 0%;
+/* or 0px */
+
+
+color: #47535E;
+
+@media all and (max-width: 768px) {
+    font-size: 25px;
+}
+}
+
+
+.achieve__section {
+    display: flex;
+    justify-content: space-between;
+
+    @media all and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.achieve__sectionList {
+    margin-top: 1.5rem;
+}
+
+.achieve__h3,.achieve__h31,.achieve__h32,.achieve__h33 {
+    font-style: normal;
+font-weight: bold;
+font-size: 36px;
+text-align: center;
+
+color: #47535E;
+}
