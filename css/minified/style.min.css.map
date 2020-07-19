@@ -22,7 +22,8 @@
         "../sass/3-layout/_achieve.scss",
         "../sass/3-layout/_tour.scss",
         "../sass/3-layout/_courses.scss",
-        "../sass/3-layout/_studenttest.scss"
+        "../sass/3-layout/_studenttest.scss",
+        "../sass/3-layout/_footer.scss"
     ],
     "names": [],
     "file": "style.min.css"

@@ -28,6 +28,8 @@ import { Tour } from "./modules/home/tour.js";
 import { Courses } from './modules/home/courses.js';
 // students testimonial
 import { studentTestimonials } from './modules/home/studenttest.js';
+// footer
+import { Footer } from './modules/home/footer.js';
 
 
 // Execute
@@ -73,4 +75,6 @@ Courses();
 // students testimonial
 studentTestimonials();
 
+// footer
+Footer();
 
