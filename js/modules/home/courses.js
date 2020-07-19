@@ -5,7 +5,7 @@ export const Courses = async () => {
 		const ftch = await fetch(url);
 		const data = await ftch.json();
 		const result = data;
-        console.log(result);
+        // console.log(result);
         
       document.querySelector(".courses__h1").textContent = `${result[0].heading}`;
       document.querySelector(".courses__p").textContent = `${result[0].title}`;

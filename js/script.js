@@ -26,6 +26,9 @@ import { Achieve } from './modules/home/achieve.js';
 import { Tour } from "./modules/home/tour.js";
 // courses
 import { Courses } from './modules/home/courses.js';
+// students testimonial
+import { studentTestimonials } from './modules/home/studenttest.js';
+
 
 // Execute
 
@@ -66,5 +69,8 @@ Tour();
 
 // courses
 Courses();
+
+// students testimonial
+studentTestimonials();
 
 
