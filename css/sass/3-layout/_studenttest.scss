@@ -626,3 +626,39 @@ color: #000000;
         font-size: 1.2rem;
     }
 }
+
+.app {
+
+    background: #484D54;
+    padding: 5rem 7rem 5rem 7rem;
+
+    @media all and (max-width: 500px) {
+        padding: 5rem 0rem 5rem 0rem;
+    }
+}
+
+.app__container {
+
+}
+
+.app__h1 {
+    font-style: normal;
+font-weight: normal;
+font-size: 48px;
+
+text-align: center;
+margin-bottom: 3rem;
+color: #FFC634;
+}
+
+.app__btn {
+    margin: 0 auto;
+    width: 298px;
+height: 83px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background: #978DCA;
+cursor: pointer;
+}

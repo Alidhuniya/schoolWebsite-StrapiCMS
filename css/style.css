@@ -1520,4 +1520,45 @@ img {
     font-size: 1.2rem;
   }
 }
+
+.app {
+  background: #484D54;
+  padding: 5rem 7rem 5rem 7rem;
+}
+
+@media all and (max-width: 500px) {
+  .app {
+    padding: 5rem 0rem 5rem 0rem;
+  }
+}
+
+.app__h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #FFC634;
+}
+
+.app__btn {
+  margin: 0 auto;
+  width: 298px;
+  height: 83px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #978DCA;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */

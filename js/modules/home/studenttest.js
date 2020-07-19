@@ -145,7 +145,9 @@ var	testim = document.getElementById("testim"),
         
 
      
-
+document.querySelector(".app__btn").addEventListener("click", ()=> {
+    location.href= "https://play.google.com/store/apps/details?id=com.maxconnect.saiglobalsss&hl=es_UY";
+})
 
 	} catch (error) {
 		console.log("Failed", error);
