@@ -18,6 +18,8 @@ import { Admission } from './modules/home/admission.js';
 import { About } from './modules/home/about.js';
 // principal
 import { Principal } from './modules/home/principal.js';
+//notice
+import { HomeNotices } from './modules/home/homenotice.js';
 
 
 // Execute
@@ -47,5 +49,8 @@ About();
 
 // principal
 Principal();
+
+// notice
+HomeNotices();
 
 
