@@ -19,6 +19,13 @@ import { About } from './modules/home/about.js';
 // principal
 import { Principal } from './modules/home/principal.js';
 
+
+// Notice page
+
+// notice navmenus
+import { Notices } from './modules/notice/notice.js';
+
+
 // Execute
 
 // Home Page
@@ -46,3 +53,8 @@ About();
 
 // principal
 Principal();
+
+// notice page
+
+// Notice menus
+Notices();
