@@ -65,3 +65,13 @@ color: #47535E;
 .notice__parag {
     max-width: 65ch;
 }
+
+.calendar {
+    margin-left: 7rem;
+    // margin-right: 7rem;
+    margin-top: 12rem;
+
+    @media all and (max-width: 500px) {
+        margin-left: 1rem;
+    }
+}

@@ -910,4 +910,15 @@ img {
 .notice__parag {
   max-width: 65ch;
 }
+
+.calendar {
+  margin-left: 7rem;
+  margin-top: 12rem;
+}
+
+@media all and (max-width: 500px) {
+  .calendar {
+    margin-left: 1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
