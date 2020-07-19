@@ -22,6 +22,8 @@ import { Principal } from './modules/home/principal.js';
 import { HomeNotices } from './modules/home/homenotice.js';
 // achieve
 import { Achieve } from './modules/home/achieve.js';
+// tour
+import { Tour } from "./modules/home/tour.js";
 
 
 // Execute
@@ -57,5 +59,8 @@ HomeNotices();
 
 // achieve
 Achieve();
+
+// tour
+Tour();
 
 

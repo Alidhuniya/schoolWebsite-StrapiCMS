@@ -1,0 +1,57 @@
+
+.tour {
+    background: #E3E9F0;
+}
+.tour__container {
+    padding: 7rem;
+    @media all and (max-width: 500px) {
+    
+       padding: 3rem;
+    
+}
+}
+
+.tour__h1 {
+    font-style: normal;
+font-weight: normal;
+font-size: 48px;
+margin-bottom: 2rem;
+
+
+letter-spacing: 0.005em;
+
+color: #47535E;
+
+@media all and (max-width: 500px) {
+    
+        font-size: 18px;
+    
+}
+}
+
+.tour__icon {
+	width: 90px;
+	height: 90px;
+border-radius: 50%;
+	background: #ffc634;
+    border: 1px solid #8c7ae6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+	margin: 0 auto;
+}
+
+.tour__h1, .tour__desc {
+    text-align: center;
+}
+
+.tour__desc {
+    margin-top: 2rem;
+    @media all and (max-width: 500px) {
+    
+    text-align: left;
+    
+}
+}
