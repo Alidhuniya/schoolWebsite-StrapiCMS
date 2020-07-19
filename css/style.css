@@ -1170,7 +1170,7 @@ img {
 }
 
 .testim {
-  margin-top: 12rem;
+  margin-top: 25rem;
   -webkit-transform: translatey(-50%);
   transform: translatey(-50%);
 }
@@ -1480,5 +1480,44 @@ img {
 
 .active, .blogSlider__dots--dot:hover {
   background-color: #fff;
+}
+
+.container9__h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.105em;
+  text-align: center;
+  color: #47535E;
+}
+
+@media all and (max-width: 500px) {
+  .container9__h1 {
+    font-size: 24px;
+  }
+}
+
+.container9__p0 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.105em;
+  margin-bottom: 3rem;
+  color: #000000;
+}
+
+@media all and (max-width: 500px) {
+  .container9__p0 {
+    font-size: 16px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .quote__desc {
+    font-size: 1.2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

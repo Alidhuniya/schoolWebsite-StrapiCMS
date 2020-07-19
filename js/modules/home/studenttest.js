@@ -17,18 +17,15 @@ export const studentTestimonials = async () => {
 
            const divL = document.createElement("div");
 
-          const dvImg = document.createElement("div");
-          const img = document.createElement("img");
-          img.src = `${result[0].studentstestimonials[y].studentImg.url}`
-          dvImg.appendChild(img);
+          
 
          const h2 = document.createElement("h2");
          h2.textContent = `${result[0].studentstestimonials[y].status}`;
 
          const desc = document.createElement("p");
          desc.textContent = `${result[0].studentstestimonials[y].saying}`;
-
-         divL.appendChild(dvImg);
+        desc.classList = "quote__desc";
+        
          divL.appendChild(h2);
          divL.appendChild(desc);
 
