@@ -24,7 +24,8 @@
         "sass/3-layout/_courses.scss",
         "sass/3-layout/_studenttest.scss",
         "sass/3-layout/_footer.scss",
-        "sass/3-layout/_result.scss"
+        "sass/3-layout/_result.scss",
+        "sass/3-layout/_blog.scss"
     ],
     "names": [],
     "file": "style.css"
