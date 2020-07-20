@@ -9,42 +9,22 @@
         const ftch = await fetch(url);
         const data = await ftch.json();
         const result = data;
-        // console.log(result[0].pdf[0].url);
-
-        // for (let i in result) {
-
-        //     const container = document.querySelector(".result__container");
-
-        //     const dv = document.createElement("div");
-
-        //     const heading = document.createElement("h1");
-        //     heading.textContent = `${result[i].heading}`;
-
-        //     const pdf = document.createElement("a");
-        //     pdf.textContent = "Download Result";
-        //     pdf.setAttribute('download', "download");
-        //     pdf.href = `${result[i].pdf[i].url}`;
-
-        //     dv.appendChild(heading);
-        //     dv.appendChild(pdf);
-
-        //     container.appendChild(dv);
-
-           
-        // }
+        console.log(result);
 
         for (var i = 0; i < result.length; i++) {
-            const container = document.querySelector(".result__container");
+            const container = document.querySelector(".result");
 
             const dv = document.createElement("div");
+            dv.classList = "resultDiv";
 
             const heading = document.createElement("h1");
             heading.textContent = `${result[i].heading}`;
+            heading.classList="result__h1";
 
             const pdf = document.createElement("a");
             pdf.textContent = "Download Result";
             pdf.setAttribute('download', "download");
-            pdf.href = `${result[i].pdf[i].url}`;
+            pdf.href = `${result[i].pdf[0].url}`;
 
             dv.appendChild(heading);
             dv.appendChild(pdf);

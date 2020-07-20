@@ -1628,13 +1628,12 @@ img {
 
 .result {
   margin-top: 7rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
   margin-bottom: 3rem;
+}
+
+.result__h1 {
+  margin-top: 3.7rem;
 }
 
 .blog {
