@@ -1625,4 +1625,15 @@ img {
 .footer__singleList {
   margin-top: 1.5rem;
 }
+
+.result {
+  margin-top: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 3rem;
+}
 /*# sourceMappingURL=style.css.map */
