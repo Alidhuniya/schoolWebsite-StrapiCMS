@@ -1704,4 +1704,48 @@ img {
     width: 100%;
   }
 }
+
+.contact {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.container16__img {
+  width: 256px;
+  height: 256px;
+  margin: 5rem auto 0 auto;
+}
+
+.container16__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container16__btnBlock {
+  width: 185px;
+  height: 56px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  border: none;
+  text-transform: capitalize;
+  background: #8c7ae6;
+}
+
+.container16__btnBlock:focus {
+  outline: none;
+}
 /*# sourceMappingURL=style.css.map */

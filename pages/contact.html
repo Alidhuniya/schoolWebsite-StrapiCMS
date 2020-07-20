@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notice</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="../css/minified/style.min.css">
     <script
     src="https://kit.fontawesome.com/fc31dedf63.js"
@@ -46,7 +46,7 @@
           
           <ul class="navbar__ul">
     <li><a class="navbar__list0" href="../index.html"></a></li>
-    <li><a class="navbar__list1" href="#"></a></li>
+    <li><a class="navbar__list1" href="../pages/notice.html"></a></li>
     <li><a class="navbar__list2" href="../pages/result.html"></a></li>
     <li><a class="navbar__list3" href="../pages/blog.html"></a></li>
     <li><a class="navbar__list4" href="#"></a></li>
@@ -66,28 +66,58 @@
   
       </div>
       <!-- End Navbar -->
-  
-      <!-- Notices -->
-      <section class="notices">
-          <!-- notices container -->
-          <div class="notices__container">
-              <!-- Heading -->
-              <h1 class="notices__heading"></h1>
-              <!-- End-heading -->
-              <!-- notices - list -->
-              <div class="notices__lists">
 
-                <!-- <a  class="notice__open" href=""></a> -->
+      <!-- contact -->
 
-                <!-- <a class="notice__open1" href=""></a> -->
-
-              </div>
-              <!-- End notices list -->
+          <!-- Contact -->
+    <section id="contact" class="contact">
+        <h1>Contact US</h1>
+        <!-- container 16 -->
+        <div class="container16">
+          
+          <img src="https://alidhuniya.github.io/linguisticCenter/img/email.svg" class="container16__img">
+          <div class="container16__btn">
+            <button class="container16__btnBlock">Send Email</button>
           </div>
-          <!-- End notices container -->
+        </div>
+        <!-- End container 16 -->
       </section>
-      <!-- End notices -->
+      <!-- End Contact -->
+  
 
-          <script async type="module" src="../js/script1.js"></script>
+      <!-- End contact -->
+  
+    
+
+         
+          <script>
+              document
+      .querySelector(".container16__btn")
+      .addEventListener("click", () => {
+        location.href = "mailto: saiglobal@gmail.com";
+      });
+          </script>
+          <script type="text/javascript">
+            (function() {
+                var options = {
+                    facebook: "108153734298160", // Facebook page ID
+                    call_to_action: "Message us", // Call to action
+                    position: "center", // Position may be 'right' or 'left'
+                };
+                var proto = document.location.protocol,
+                    host = "whatshelp.io",
+                    url = proto + "//static." + host;
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function() {
+                    WhWidgetSendButton.init(host, proto, options);
+                };
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            })();
+        </script>
+           <script async type="module" src="../js/script2.js"></script>
 </body>
 </html>
