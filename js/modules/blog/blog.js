@@ -27,20 +27,30 @@
 
             
             const heading = document.createElement("h1");
+            heading.classList = "blog__heading";
             heading.textContent = `${result[i].title}`;
 
             const desc = document.createElement("p");
+            desc.classList =" description";
             desc.textContent = `${result[i].description}`;
 
             const date = document.createElement("p");
+            date.classList ="date";
             date.textContent = `${result[i].date}`;
 
            const hrf = document.createElement("a");
+           hrf.classList = "below";
            hrf.textContent = "Read More Below:";
           
 
+          
             const readmore = document.createElement("div");
+            readmore.classList = "readmore";
             readmore.textContent = `${result[i].content}`;
+
+
+            const hr = document.createElement("hr");
+           
             
            
 
@@ -54,6 +64,7 @@
             dv.appendChild(date);
             dv.appendChild(hrf);
             dv.appendChild(readmore);
+            dv.appendChild(hr);
            
 
             container.appendChild(dv);
