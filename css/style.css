@@ -1636,4 +1636,12 @@ img {
           justify-content: center;
   margin-bottom: 3rem;
 }
+
+.blog__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 40%;
+  height: 230px;
+  border-radius: 21px;
+}
 /*# sourceMappingURL=style.css.map */
