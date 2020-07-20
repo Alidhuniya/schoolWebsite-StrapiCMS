@@ -8,17 +8,19 @@ export const Footer = async () => {
         // console.log(result[0].footerMenus[0].navlinkitem);
 		
 		document.querySelector(".footer__img").src = `${result[0].footerLogo.url}`;
+		document.querySelector(".footer__h4btm").textContent = `${result[0].footercopyright}`;
+		document.querySelector(".footer__btmp").textContent = `${result[0].footerdesc}`;
 
-		
-		
 
 		for (let i in result[0].footerMenus) {
 			const menus = document.querySelector(".footer__nav");
 
 			const list = document.createElement("div");
+			list.classList = "footer__singleList";
 
 			const link = document.createElement("a");
 			link.textContent = `${result[0].footerMenus[i].navlinkitem}`;
+			link.classList = "footer__linksHeading";
 
 			list.appendChild(link);
 			menus.appendChild(list);
