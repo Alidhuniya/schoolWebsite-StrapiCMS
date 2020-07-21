@@ -1747,4 +1747,36 @@ img {
 .container16__btnBlock:focus {
   outline: none;
 }
+
+.manage {
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.princeImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.viceImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.manageSection {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
 /*# sourceMappingURL=style.css.map */

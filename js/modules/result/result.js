@@ -9,7 +9,7 @@
         const ftch = await fetch(url);
         const data = await ftch.json();
         const result = data;
-        console.log(result);
+        // console.log(result);
 
         for (var i = 0; i < result.length; i++) {
             const container = document.querySelector(".result");
