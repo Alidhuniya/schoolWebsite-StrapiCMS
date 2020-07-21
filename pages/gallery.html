@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <title>Image Gallery</title>
+  <style>
+    .close {
+      color: #333;
+      float: right;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    
+    .close:hover {
+      color: red;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .modal1 {
+      display: none;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      padding-top: 120px;
+      z-index: 1;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .modal-content {
+      background-color: #eee;
+      margin: auto;
+      width: 80%;
+      min-height: 20px;
+      padding: 30px;
+    }
+    
+    .modal-body {
+      width: 96%;
+      padding: 2%;
+      height: 96%;
+    }
+  </style>
+</head>
+ 
+<body>
+  <div class="output"></div>
+  <div class="modal1">
+    <div class="modal-content"> <span class="close">&times;</span> <img class="modal-body"> </div>
+  </div>
+  <script>
+//https://script.google.com/macros/s/AKfycbzYQVNG-3jB2ocRX83oj7U2oGxyzRcdqaL4Zti7DMOf_WNXPwA/exec
+const url = "https://script.googleusercontent.com/macros/echo?user_content_key=FxwQE7sKDZh-PrIUe3BJM5_IDqXtXQ9clPpSerxy_fvEc-6aVMCpKogq94AQj0x2eqvHAowin2fHRUF01-tZ6VWti7iosaVHm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnBQeKA8C2iXRvFi4wGByaZGb8hN2dc9o4BSY4htfRjnlEbJkx6_Si-j4NjEoAWiFjw&lib=MzkLrsD0Qdc8I1EClwK_pC54y4gu6II2O";
+window.addEventListener('DOMContentLoaded', addImages)
+const output = document.querySelector('.output');
+const modal1 = document.querySelector('.modal1');
+const modalBody = document.querySelector('.modal-body');
+document.querySelector('.close').addEventListener('click', closePopUp);
+window.onclick = function (e) {
+  if (e.target == modal1) {
+    closePopUp();
+  }
+};
+ 
+function popUp(imgURL) {
+  console.log(imgURL);
+  modal1.style.display = "block";
+  modalBody.src = imgURL;
+}
+ 
+function closePopUp() {
+  modal1.style.display = "none";
+}
+ 
+function addImages() {
+  console.log('ready');
+  fetch(url).then(function (rep) {
+    return rep.json()
+  }).then(function (json) {
+    console.log(json);
+    json.data.forEach(function (val) {
+      console.log(val.url);
+      let img = document.createElement('img');
+      img.setAttribute('src', val.url);
+      img.addEventListener('click', function (e) {
+        popUp(val.url);
+      })
+      img.style.width = '30%';
+      img.style.float = 'left';
+      img.style.margin = '1.66%';
+      output.appendChild(img);
+    })
+  })
+}
+  </script>
+</body>
+ 
+</html>
+
+
+
+
