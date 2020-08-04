@@ -9,6 +9,10 @@
  # [See Live](https://alidhuniya.github.io/schoolWebsite-StrapiCMS/)
 
  [![See Live](./img/thumbnail.png)](https://alidhuniya.github.io/schoolWebsite-StrapiCMS/)
+ 
+ # Blog 
+ 
+ ## [how-i-build-a-school-website-with-strapi-cms-using-vanilla-js](https://dev.to/alidhuniya/how-i-build-a-school-website-with-strapi-cms-using-vanilla-js-2k57)
 
 
 # Tech Stack
