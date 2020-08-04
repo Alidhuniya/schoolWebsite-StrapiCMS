@@ -1,1 +1,1 @@
-export const localhost = "https://strapicmsdemo.herokuapp.com";
+export const localhost = "https://schoolsitedemo.herokuapp.com";
