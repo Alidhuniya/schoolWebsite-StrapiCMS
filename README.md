@@ -1,5 +1,5 @@
 
-<!-- [live](https://alidhuniya.github.io/schoolWebsite-StrapiCMS/) -->
+<!-- [live](https://schoolweb.netlify.app/) -->
 
 
 #  Dynamic School Website
