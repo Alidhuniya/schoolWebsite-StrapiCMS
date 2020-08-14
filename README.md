@@ -1,12 +1,9 @@
 
-<!-- [live](https://schoolweb.netlify.app/) -->
-
-
 #  Dynamic School Website
 
 > ## Dynamic School Website with Strapi Headless cms and VanillaJS
 
- # [See Live](https://alidhuniya.github.io/schoolWebsite-StrapiCMS/)
+ # [See Live](https://schoolweb.netlify.app/)
 
  [![See Live](./img/thumbnail.png)](https://alidhuniya.github.io/schoolWebsite-StrapiCMS/)
  
